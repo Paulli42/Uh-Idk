@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "uh_idk",
+  "version": "${version}",
+
+  "name": "UH IDK",
+  "description": "usefull features",
+  "authors": [],
+  "contact": {},
+
+  "license": "GPL-3.0",
+  "icon": "assets/uh_idk/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.kaiser_tec.uh_idk.client.UhIdkClient"]
+  },
+
+  "mixins": [
+    "uh_idk.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
